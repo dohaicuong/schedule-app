@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "wrangler pages dev -- pnpm vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prisma:gen": "npx prisma generate --data-proxy"
   },
   "dependencies": {
+    "@prisma/client": "^4.12.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
