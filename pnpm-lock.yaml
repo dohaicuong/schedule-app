@@ -9,6 +9,9 @@ dependencies:
     version: 18.2.0(react@18.2.0)
 
 devDependencies:
+  '@cloudflare/workers-types':
+    specifier: ^4.20230321.0
+    version: 4.20230321.0
   '@types/react':
     specifier: ^18.0.28
     version: 18.0.31
@@ -253,6 +256,10 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@cloudflare/workers-types@4.20230321.0:
+    resolution: {integrity: sha512-zyRFz9AUS0tbg3/kJ+3zxvp9fl/O9yOJlChih/o86hhOqRMcZVbWefYAvFPidRvYUHM5YTG1wjU1bF9FFckRVg==}
     dev: true
 
   /@esbuild/android-arm64@0.17.14:
